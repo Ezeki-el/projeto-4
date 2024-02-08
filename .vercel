@@ -1,0 +1,8 @@
+"pipeline": {
+  "build": {
+    "dependsOn": [...]
+-   "outputs": [..., ".svelte-kit/**"],
++   "outputs": [..., ".svelte-kit/**", ".vercel/**"],
+    ...
+  },
+}
